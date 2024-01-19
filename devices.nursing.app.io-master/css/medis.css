@@ -1,0 +1,109 @@
+.navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  color: dodgerblue;
+}
+
+
+
+.d-flex a,
+span {
+  color: brown;
+  font-size: 30px;
+}
+
+.nav,
+.nav-item,
+.nav-link {
+  color: aliceblue;
+  font-weight: 700;
+
+}
+
+.nav,
+.nav-item,
+.nav-link:hover{
+  color: aquamarine;
+}
+
+.nav,
+.nav-item,
+.nav-link:focus{
+  color: yellowgreen;
+}
+
+
+
+.col a {
+  text-decoration: none;
+  
+}
+
+.col-9{
+  padding: 20px;
+}
+.col-9 .scrolbar{
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 50rem;
+}
+
+.icon-box {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.icon1{
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+
+}
+
+.icon1:nth-child(1){
+  background-color: darkgoldenrod;
+  
+}
+.icon1:nth-child(2){
+  background-color: darkblue;
+}
+.icon1:nth-child(3){
+  background-color: rgb(63, 136, 155);
+  
+}
+
+.col-sm-7 #item p{
+  text-align: justify;
+  font-size: 13px;
+}
+
+.col-sm-7 #item ul li{
+  text-align: justify;
+  font-size: 13px;
+}
+
+.col-sm-7 #item ol li{
+  text-align: justify;
+  font-size: 13px;
+}
+
+.col-sm-7 h3{
+  font-weight: 500;
+}
+
+#item{
+  margin: 0px;
+}
+
+.mt-3 .flex-column .nav-item .nav-link{
+  color: cadetblue;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.mt-3 .flex-column .nav-item .nav-link i {
+  font-size: 15px;
+}
+
+

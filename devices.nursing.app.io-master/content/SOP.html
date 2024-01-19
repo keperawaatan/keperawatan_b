@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sop</title>
+  <link rel="icon" href="../image/icon.png">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+  <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../css/medis.css" />
+
+  <style>
+    .col {
+      position: relative;
+    }
+
+    .container {
+      position: relative;
+    }
+
+    .iframe-container {
+      display: none;
+    }
+
+    .iframe-container.active {
+      display: block;
+    }
+
+    .btn {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 0.9rem;
+      color: cadetblue;
+      font-weight: 600;
+    }
+
+    @media screen and (max-width: 900px) {
+      .btn {
+        font-size: 0.6rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="../index.html" onclick="route()">Device Nursing APP</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+
+        </ul>
+      </div>
+      <div class="d-flex justify-content-start">
+        <a href="https://www.instagram.com/nursing_b22?igsh=YzVkODRmOTdmMw%3D%3D&utm_source=qr">
+          <span class="fa-brands fa-instagram fa-beat"></span>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <ul class="nav justify-content-center bg-secondary text-black">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="./SOP.html" onclick="route()">SOP</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./LITERASI.html" onclick="route()">LITERASI</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./ASKEP.html" onclick="route()">ASKEP</a>
+    </li>
+
+  </ul>
+
+  <!-- content medis -->
+  <div class="bg-body-secondary" style="width: 100%; height: 135vh;">
+    <div class="container p-4">
+      <h3 class="container text-info fw-bold ">Standar Oprasional Prosedural </h3>
+      <span class="container text-secondary fs-6">Diterbitkan: 25 Desember 2023 || Kelas B</span>
+      <div class="container mt-2 icon-box">
+        <div class="icon1"></div>
+        <div class="icon1"></div>
+        <div class="icon1"></div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid mt-3">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="d-grid gap-1 mb-5">
+
+
+            <button type="button" class="btn " onclick="changeToSlide(0)"><i class="fa-solid fa-plus"></i>SOP PENGATURAN
+              POSISI SEMIFOWLER</button>
+
+            <button type="button" class="btn " onclick="changeToSlide(1)"><i class="fa-solid fa-plus"></i>SOP PENGISAPAN
+              JALAN NAPAS</button>
+
+
+            <button type="button" class="btn " onclick="changeToSlide(2)"><i class="fa-solid fa-plus"></i>SOP PENGATURAN
+              POSISI SUPINE</button>
+
+
+            <button type="button" class="btn " onclick="changeToSlide(3)"><i class="fa-solid fa-plus"></i>SOP PENGUKURAN
+              LENGAN LINGKAR</button>
+
+
+            <button type="button" class="btn " onclick="changeToSlide(4)"><i class="fa-solid fa-plus"></i>SOP
+              PENIMBANGAN BERAT BADAN</button>
+
+
+            <button type="button" class="btn " onclick="changeToSlide(5)"><i class="fa-solid fa-plus"></i>SOP PEMBERIAN
+              OBAT INTRAVENA</button>
+
+
+            <button type="button" class="btn " onclick="changeToSlide(6)"><i class="fa-solid fa-plus"></i>SOP MANAJEMEN
+              KENYAMANAN LINGKUNGAN</button>
+
+
+            <button type="button" class="btn " onclick="changeToSlide(7)"><i class="fa-solid fa-plus"></i>SOP LATIHAN
+              PERNAPASAN</button>
+
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div id="box" class="col" style="height: auto;">
+            <div class="container" style="width: 100%; height: 100vh; ">
+              <div class="iframe-container active">
+                <iframe src="./SOP/page1.html" frameborder="0" style="width: 100%; height: 100vh;"></iframe>
+              </div>
+              <div class="iframe-container">
+                <iframe src="./SOP/page2.html" frameborder="0" style="width: 100%; height: 100vh;"></iframe>
+              </div>
+              <div class="iframe-container">
+                <iframe src="./SOP/page3.html" frameborder="0" style="width: 100%; height: 100vh;"></iframe>
+              </div>
+              <div class="iframe-container">
+                <iframe src="./SOP/page4.html" frameborder="0" style="width: 100%; height: 100vh;"></iframe>
+              </div>
+              <div class="iframe-container">
+                <iframe src="./SOP/page5.html" frameborder="0" style="width: 100%; height: 100vh;"></iframe>
+              </div>
+              <div class="iframe-container">
+                <iframe src="./SOP/page6.html" frameborder="0" style="width: 100%; height: 100vh;"></iframe>
+              </div>
+              <div class="iframe-container">
+                <iframe src="./SOP/page7.html" frameborder="0" style="width: 100%; height: 100vh;"></iframe>
+              </div>
+              <div class="iframe-container">
+                <iframe src="./SOP/page8.html" frameborder="0" style="width: 100%; height: 100vh;"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- footer -->
+    <!-- footer -->
+    <footer class="container-fluid p-4 bg-secondary text-center text-lg-start mt-5">
+
+      <div class="text-center p-3">
+        © 2023 nursing_b22:
+        <a class="text-body" href="https://www.instagram.com/nursing_b22?igsh=YzVkODRmOTdmMw%3D%3D&utm_source=qr">Device
+          Nursing APP </a>
+      </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
